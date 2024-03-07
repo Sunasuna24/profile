@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, ul {
+    padding: initial;
+    margin: initial;
+}
+a {
+    text-decoration: none;
+}
+
+/* ヘッダー */
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    font-size: 14.4px;
+}
